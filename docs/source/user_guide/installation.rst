@@ -40,6 +40,24 @@ To install the AiiDA-gromacs plugin, activate the conda environment created prev
     conda activate aiida-2.4.0
     pip install aiida-gromacs
 
+Alternative Installation via Conda
+----------------------------------
+
+The AiiDA-Gromacs plugin is also available via the CCPBioSim Anaconda channel.
+
+To install using Conda:
+
+.. code-block:: bash
+
+    conda activate aiida-2.4.0
+    conda install -c CCPBioSim aiida-gromacs
+
+Or using mamba:
+
+.. code-block:: bash
+
+    mamba install -c CCPBioSim aiida-gromacs
+
 GROMACS Installation
 --------------------
 
