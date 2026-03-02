@@ -25,7 +25,7 @@ For this tutorial, pre-installation of AiiDA, the aiida-gromacs plugin and depen
 This tutorial also assumes yo have the AiiDA tools running in the background, if not please follow the steps `here <https://aiida-gromacs.readthedocs.io/en/latest/user_guide/aiida_sessions.html>`_.
 
 .. note::
-    All the files required for this version of the tutorial should be downloaded from `our tutorial files <https://github.com/CCPBioSim/aiida-gromacs/tree/master/examples/lysozyme_files/inputs/>`_ and **not** from the links provided in Justin's tutorial as slight alterations to these files have been made, and those available via Justin's tutorial will cause errors if used here.
+    All the files required for this version of the tutorial should be downloaded from `our tutorial files <https://github.com/CCPBioSim/aiida-gromacs/tree/main/examples/lysozyme_files/inputs/>`_ and **not** from the links provided in Justin's tutorial as slight alterations to these files have been made, and those available via Justin's tutorial will cause errors if used here.
 
 
 "AiiDA-fying" Lemkul's tutorial
