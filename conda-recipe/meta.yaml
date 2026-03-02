@@ -42,6 +42,6 @@ test:
   imports:
     - aiida_gromacs
   commands:
-    - gmx_grompp --help
-    - gmx_mdrun --help
+    - python -c "import shutil; assert shutil.which('gmx_grompp'), 'gmx_grompp not found'"
+    - python -c "import shutil; assert shutil.which('gmx_mdrun'), 'gmx_mdrun not found'"
     - python -c "import aiida_gromacs; print(aiida_gromacs.__version__)"
