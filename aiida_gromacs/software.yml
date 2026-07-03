@@ -1,0 +1,31 @@
+name: aiida-gromacs
+version: 2.2.1
+description: GROMACS plugin for AiiDA that captures and shares full data provenance when parameterising and running molecular dynamics simulations
+languages:
+  - Python
+license: MIT
+
+authors:
+  - Elsie Jewel
+  - Nabeeha Anis
+
+links:
+  repository: https://github.com/STFC-BioSim-WX-2026/aiida-gromacs
+  documentation: https://aiida-gromacs.readthedocs.io
+  citation: https://doi.org/10.5281/zenodo.18392289
+
+status:
+  package_status: stable
+  last_updated: "2026-03-02"
+  work_in_progress: true
+  last_release: 2.2.1
+
+testing:
+  build_status: passing
+  documentation_status: passing
+  test_coverage: 78
+
+usage:
+  pypi_downloads_total: 50000
+  pypi_downloads_monthly: 419
+  anaconda_downloads_total: 10
